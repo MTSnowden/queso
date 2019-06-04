@@ -1,10 +1,10 @@
 import React from 'react'
 import './Featured.css'
 
-const Featured = () => (
-  <div className="featured">
-    <div className="featured-flex">
-      <h1>This week's featured Cheez Kween</h1>
+const Home = () => (
+  <div className="home">
+    <div className="home-flex">
+      
     </div>
     <div className="featured-flex">
       <div>
@@ -17,4 +17,4 @@ const Featured = () => (
     </div>
   </div>
 )
-export default Featured;
+export default Featured; 
