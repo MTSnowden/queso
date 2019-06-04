@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import './App.css';
 import {BrowserRouter} from 'react-router-dom';
 import Router from './Router';
+import LeftComponent from './components/LeftComponent/LeftComponent';
 
 function App() {
   return (
@@ -10,9 +11,9 @@ function App() {
     <Header />
     <Router />
     </BrowserRouter>
-
-    <Map />
     
+    <LeftComponent />
+
   );
 }
 
