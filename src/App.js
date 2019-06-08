@@ -13,8 +13,8 @@ function App() {
     </BrowserRouter>
     
     <LeftComponent />
-
   );
 }
 
 export default App;
+
