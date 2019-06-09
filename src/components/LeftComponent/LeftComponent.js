@@ -1,5 +1,6 @@
 import React from 'react'
 import './LeftComponent.css'
+import { GoogleApiWrapper } from 'google-maps-react';
 
 const LeftComponent = () => (
   <div className="LeftComponent">
@@ -9,7 +10,11 @@ const LeftComponent = () => (
       <p>Will generate all cheese dishes in the area</p>
       <p>Will generate icons for cheez kweens</p>
     </div>
-    
   </div>
+
 )
+
+
+export class MapContainer extends React.Component {}
+
 export default LeftComponent;
