@@ -1,6 +1,7 @@
 import React from 'react'
 import './LeftComponent.css'
-import { GoogleApiWrapper } from 'google-maps-react';
+// import { GoogleApiWrapper } from 'google-maps-react';
+
 
 const LeftComponent = () => (
   <div className="LeftComponent">
@@ -14,7 +15,14 @@ const LeftComponent = () => (
 
 )
 
+// const LoadingContainer = (props) => (
+//   <div>Fancy loading container!</div>
+// )
 
-export class MapContainer extends React.Component {}
+// module.export = GoogleApiWrapper({
+//   apiKey: (AIzaSyD8--ovOhB1SIgxHIpXhoZECQ0sOIpiMPg),
+//   LoadingContainer: LoadingContainer
+// });
+
 
 export default LeftComponent;

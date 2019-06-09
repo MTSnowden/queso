@@ -1,5 +1,7 @@
 .LeftComponent {
     border: 2px solid blue;
+    background-color: gray;
     height: 98vh;
     width: 100%;
+
 }
