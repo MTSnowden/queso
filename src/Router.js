@@ -1,19 +1,18 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import OpeningScreen from './components/OpeningScreen/OpeningScreen';
-import Featured from "../components/Featured";
-import Map from './components/Map';
-import Search from './components/Search';
-import OpeningScreen from './components/OpeningScreen/OpeningScreen';
+import Header from "./components/Header/Header";
+import LeftComponent from './components/LeftComponent/LeftComponent';
+import RightComponent from "./components/RightComponent/RightComponent";
+// import Header from './components/Header';
+// import LeftComponent from './components/LeftComponent';
 
 const Router = () => {
     return(
         <Switch>
-            <Route exact path="/" component={OpeningScreen} />
-            <Route path="../components/Featured" component={Featured} />
-            <Route path="./Map" component={Map} />
-            <Route path="./Search" component={Search} />
-            <Route path="./OpeningScreen" component={OpeningScreen} />
+            {/* <Route exact path="/" component={OpeningScreen} /> */}
+            <Route path="./Header" component={Header} />
+            <Route path="./LeftComponent" component={LeftComponent} />
+            <Route path="./RightComponent" component={RightComponent} />
         </Switch>
     );
 }
