@@ -10,9 +10,10 @@ function App() {
     <BrowserRouter>
     <Header />
     <Router />
+    <LeftComponent />
     </BrowserRouter>
     
-    <LeftComponent />
+    // <LeftComponent />
   );
 }
 
