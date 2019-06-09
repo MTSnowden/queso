@@ -6,18 +6,21 @@ const Header = () => (
   <div className="header">
 
     <div className="header-flex">
-      <h1>This is the header </h1>
+    <img className="logo" src="../images/logo" alt="logo"></img>
     </div>
 
     <div className="header-flex">
       <div>
-        <img className="logo-img" src="./images/logo"></img>
-      </div>
-
-      <div className="account-login">
-      <button>account login button</button>
+      <h1>This is the header.</h1>
       </div>
     </div>
+
+      <div className="header-flex">
+        <div>
+        <button>account login button</button>
+        </div>
+      </div>
+    
   </div>
 )
 

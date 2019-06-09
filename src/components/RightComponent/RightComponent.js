@@ -12,7 +12,7 @@ const RightComponent = () => (
       </div>
 
       <div className="top-dishes-container">
-        <button id="top-dishes-button"></button>
+        <button id="button">BUTTON</button>
         <div>
          <p>a drop down list will appear..</p>
          <p>or will link a new page </p>
