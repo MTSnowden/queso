@@ -6,10 +6,12 @@ import './LeftComponent.css'
 const LeftComponent = () => (
   <div className="LeftComponent">
     <div className="left-flex">
+    <p>search bar on the top</p>
       <h1>This is a map of austin </h1>
-      <p>The map will have a search bar on the top</p>
+      
       <p>Will generate all cheese dishes in the area</p>
       <p>Will generate icons for cheez kweens</p>
+      <p>Will </p>
     </div>
   </div>
 
