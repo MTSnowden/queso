@@ -9,6 +9,11 @@
 
 }
 
+.header-flex{
+    display: grid;
+    margin: 0 auto;
+}
+
 #logo {
-    /* image: url('../../images/logo.png') */
+    image: url('../../images/logo.png')
 }
