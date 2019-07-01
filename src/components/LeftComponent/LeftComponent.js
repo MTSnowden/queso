@@ -1,17 +1,13 @@
 import React from 'react'
 import './LeftComponent.css'
+import { GoogleMap } from 'react-google-maps'
 // import { GoogleApiWrapper } from 'google-maps-react';
 
 
 const LeftComponent = () => (
   <div className="LeftComponent">
     <div className="left-flex">
-    <p>search bar on the top</p>
-      <h1>This is a map of austin </h1>
-      
-      <p>Will generate all cheese dishes in the area</p>
-      <p>Will generate icons for cheez kweens</p>
-      <p>Will </p>
+    
     </div>
   </div>
 
