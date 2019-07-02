@@ -1,7 +1,12 @@
 .LeftComponent {
-    border: 2px solid blue;
-    background-color: gray;
+    border: 2px solid darkgray;
+    border-right: 0px;
+    background-color: lightgray;
     height: 98vh;
     width: 100%;
+    padding: 50px;
+}
 
+.wrappedMap {
+    border: 2px solid black;
 }

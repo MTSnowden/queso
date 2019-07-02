@@ -16,12 +16,11 @@ function Map() {
 
 const WrappedMap = withScriptjs(withGoogleMap(Map));
 
-
 function LeftComponent() {
   return(
     <div style={{width: '60vw', height: '100vh'}} >
  <div className="LeftComponent">
-   {/* <div className="left-flex"> */}
+   
     <WrappedMap
       googleMapURL={"https://maps.googleapis.com/maps/api/js?key=AIzaSyD8--ovOhB1SIgxHIpXhoZECQ0sOIpiMPg&callback=initMap"}
       loadingElement={<div style={{ height: "100%" }} />}

@@ -1,8 +1,9 @@
 .RightComponent {
-    border: 2px solid black;
+    border: 2px solid darkgray;
     height: 98vh;
     width: 100%;
-    background-color: slategrey;
+    /* background-color: lightgoldenrodyellow; */
+    background-color: #f5f7fa;
 }
 
 #button {
