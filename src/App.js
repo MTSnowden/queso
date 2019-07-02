@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import Header from './components/Header/Header';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-// import Router from './Router';
+import {Jumbotron, Button} from 'reactstrap'
+import ReactSearchBox from 'react-search-box'
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import logo from '../src/logo.png'
 import LeftComponent from './components/LeftComponent/LeftComponent';
 import RightComponent from './components/RightComponent/RightComponent';
+
 
 function App() {
   return (
@@ -20,17 +22,23 @@ function App() {
         </a>
 
         <Link to ="/" className="navbar-brand">CHZPLZ</Link>
-        <div className="collapse nav-collapse">
-          <ul className="navbar nav mr-auto">
-            <li className="navbar-item">
-              {/* <Link to="" */}
-            </li>
-            <li className="navbar-item">
-              {/* <Link to="" */}
-            </li>
-          </ul>
+        <Link to="/Login" className="navbar-item">Login</Link>
+        
+        <div className="search-container"
+             >
+        <ReactSearchBox
+          placeholder="Search"
+        //   value="Doe"
+        //   data={this.data}
+        // callback={record => console.log(record)}
+        />
+        <Button />
         </div>
+           
       </nav>
+
+      <Jumbotron 
+        />
 
       <div className="body">
        <LeftComponent />
