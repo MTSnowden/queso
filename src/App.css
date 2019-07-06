@@ -12,6 +12,11 @@
   display: flex;
 }
 
+.jumbotron {
+  /* background-image: url("./images/queso-blanco-2.jpg"); */
+  /* background-size: cover; */
+  height: 200px;
+}
 
 
 /* 

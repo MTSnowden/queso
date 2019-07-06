@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import logo from '../src/logo.png'
 import LeftComponent from './components/LeftComponent/LeftComponent';
 import RightComponent from './components/RightComponent/RightComponent';
-
+// import blanco from './images/queso-blanco'
 
 function App() {
   return (
@@ -24,21 +24,16 @@ function App() {
         <Link to ="/" className="navbar-brand">CHZPLZ</Link>
         <Link to="/Login" className="navbar-item">Login</Link>
         
-        <div className="search-container"
-             >
+        <div className="search-container">
         <ReactSearchBox
           placeholder="Search"
-        //   value="Doe"
-        //   data={this.data}
-        // callback={record => console.log(record)}
         />
         <Button />
         </div>
            
       </nav>
 
-      <Jumbotron 
-        />
+      <Jumbotron></Jumbotron>
 
       <div className="body">
        <LeftComponent />
