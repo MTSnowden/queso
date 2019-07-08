@@ -22,8 +22,7 @@ function App() {
         </a>
 
         <Link to ="/" className="navbar-brand">CHZPLZ</Link>
-        <Link to="/Login" className="navbar-item">Login</Link>
-           
+        <Link to="/Login" className="navbar-item">Login</Link>        
       </nav>
 
       {/* <Jumbotron> */}

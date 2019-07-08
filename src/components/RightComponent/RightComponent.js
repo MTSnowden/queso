@@ -13,13 +13,13 @@ const RightComponent = () => (
           </img>
          <h5>Find the best cheez in town</h5>
          <form  className="search-form">
-         <input className="search-bar" 
+            <input  
+                className="search-bar" 
                 type="text" />
-         <button 
+            <button 
                 className="search-button" 
                 type>Search</button>
-          
-         </form>
+          </form>
           <div className="top-dishes-container"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis justo erat. Praesent imperdiet accumsan purus et laoreet. Quisque sit amet nibh vel elit congu.</p>
           </div>

@@ -12,7 +12,7 @@ const Router = () => {
         <Switch>
             {/* <Route exact path="/" component={OpeningScreen} /> */}
             <Route path="./Header" component={Header} />
-            <Route path="./LogIn" component={LogIn} />
+            <Route path="./Login" component={LogIn} />
             {/* <Route path="./RightComponent" component={RightComponent} /> */}
         </Switch>
     );
