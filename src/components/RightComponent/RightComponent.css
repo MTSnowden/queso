@@ -6,6 +6,7 @@
     background-color: #f5f7fa;
 }
 
-#button {
-    border-radius: 15px;
+.featured-dish-container{
+    padding: 10px;
 }
+

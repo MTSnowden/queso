@@ -9,7 +9,7 @@ const RightComponent = () => (
       <div className="featured-dish-container">
          <img src={dish} 
               id="featured-image" 
-              width="300" height="200">
+              width="240" height="150">
           </img>
          <h5>Find the best cheez in town</h5>
          <form  className="search-form">
@@ -18,22 +18,12 @@ const RightComponent = () => (
          <button 
                 className="search-button" 
                 type>Search</button>
+          
          </form>
-
+          <div className="top-dishes-container"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis justo erat. Praesent imperdiet accumsan purus et laoreet. Quisque sit amet nibh vel elit congu.</p>
+          </div>
       </div>
-
-      <div className="top-dishes-container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis justo erat. Praesent imperdiet accumsan purus et laoreet. Quisque sit amet nibh vel elit congu.
-
-
-        </p>
-        <div>
-         <p>.........</p>
-         <p>..... </p>
-        </div>
-      </div>
-        
-    </div>
     </div>
 )
 

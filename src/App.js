@@ -2,7 +2,7 @@ import React from 'react';
 // import Header from './components/Header/Header';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import {Jumbotron, Button} from 'reactstrap'
+// import {Jumbotron, Button} from 'reactstrap'
 import ReactSearchBox from 'react-search-box'
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import logo from '../src/logo.png'
@@ -23,15 +23,12 @@ function App() {
 
         <Link to ="/" className="navbar-brand">CHZPLZ</Link>
         <Link to="/Login" className="navbar-item">Login</Link>
-        
-       
-        
            
       </nav>
 
-      <Jumbotron>
+      {/* <Jumbotron> */}
       {/* <img src={logo} alt="logo"></img> */}
-      </Jumbotron>
+      {/* </Jumbotron> */}
 
       <div className="body">
        <LeftComponent />
