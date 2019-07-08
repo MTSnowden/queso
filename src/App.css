@@ -13,10 +13,16 @@
 }
 
 .jumbotron {
-  /* background-image: url("./images/queso-blanco-2.jpg"); */
+  /* background-image: url("./images/queso-blanco.png"); */
   /* background-size: cover; */
-  height: 200px;
+  /* height: 400px; */
 }
+
+#logo {
+  image: url('/images/logo.png')
+}
+
+
 
 
 /* 
@@ -28,3 +34,4 @@
     transform: rotate(360deg);
   }
 } */
+

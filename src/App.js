@@ -24,16 +24,14 @@ function App() {
         <Link to ="/" className="navbar-brand">CHZPLZ</Link>
         <Link to="/Login" className="navbar-item">Login</Link>
         
-        <div className="search-container">
-        <ReactSearchBox
-          placeholder="Search"
-        />
-        <Button />
-        </div>
+       
+        
            
       </nav>
 
-      <Jumbotron></Jumbotron>
+      <Jumbotron>
+      {/* <img src={logo} alt="logo"></img> */}
+      </Jumbotron>
 
       <div className="body">
        <LeftComponent />
