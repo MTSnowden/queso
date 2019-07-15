@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 // import {Jumbotron, Button} from 'reactstrap'
-import ReactSearchBox from 'react-search-box'
+// import ReactSearchBox from 'react-search-box'
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import logo from '../src/logo.png'
 import LeftComponent from './components/LeftComponent/LeftComponent';

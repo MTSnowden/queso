@@ -1,12 +1,11 @@
 .header{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr ;
     margin: 0 auto;
     background-color: black;
     height: 10vh;
     width: 100%;
     color: white;
-
 }
 
 .header-flex{

@@ -5,12 +5,11 @@ import dish from '../../images/hotdish.jpg'
 const RightComponent = () => (
   <div className="RightComponent">
     <div className="right-flex">
-
       <div className="featured-dish-container">
-         <img src={dish} 
-              id="featured-image" 
-              width="240" height="150">
-          </img>
+         {/* <img src={dish}  */}
+              {/* id="featured-image"  */}
+              {/* width="240" height="150"> */}
+          {/* </img> */}
          <h5>Find the best cheez in town</h5>
          <form  className="search-form">
             <input  
